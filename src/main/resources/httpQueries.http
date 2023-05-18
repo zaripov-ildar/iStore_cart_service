@@ -1,0 +1,13 @@
+GET http://localhost:8400/api/v1/cart/generateId
+
+###
+#
+GET http://localhost:8400/api/v1/cart/2fae82a7-98d4-4a87-bcac-30497007bc5c
+####
+#
+#
+GET http://localhost:8400/api/v1/cart/2fae82a7-98d4-4a87-bcac-30497007bc5c/add/2
+#
+####
+#
+#GET http://localhost:8400/api/v1/cart/clear/2b920487-e5a5-4c6e-8ad4-537537cb530f

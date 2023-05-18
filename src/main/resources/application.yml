@@ -1,0 +1,18 @@
+server:
+  port: 8400
+
+
+integrations:
+  core-service:
+    url: http://localhost:8300/
+    connect-timeout: 5000
+    read-timeout: 10000
+    write-timeout: 5000
+
+spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
+cart:
+  expiration_seconds: 3600 #One hour
